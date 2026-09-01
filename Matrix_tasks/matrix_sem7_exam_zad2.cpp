@@ -1,4 +1,4 @@
-/*#include <iostream>
+#include <iostream>
 const unsigned int N = 4;
 void elementsInMatrix(int matrix[][N])
 {
@@ -42,4 +42,4 @@ int main()
 		}
 	}
 	elementsInMatrix(matrix);
-}*/
+}
