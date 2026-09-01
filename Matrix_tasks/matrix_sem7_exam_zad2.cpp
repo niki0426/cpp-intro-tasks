@@ -31,7 +31,7 @@ void elementsInMatrix(int matrix[][N])
 		right--;
 	}
 }
-int main()
+int main2()
 {
 	int matrix[N][N];
 	for (int i = 0; i < N; i++)
@@ -42,4 +42,5 @@ int main()
 		}
 	}
 	elementsInMatrix(matrix);
+	return 0;
 }

@@ -30,7 +30,7 @@ void findSaddlePoint(int matrix[SIZE][SIZE], int rows, int cols)
 	}
 	std::cout << "The matrix does't have saddle point";
 }
-int main()
+int main1()
 {
 	int matrix[SIZE][SIZE];
 	int rows, cols;
@@ -46,4 +46,5 @@ int main()
 		}
 	}
 	findSaddlePoint(matrix, rows, cols);
+	return 0;
 }
